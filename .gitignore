@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+._*
+
+# draw.io
+*.bkp
+*.drawio~
+*.drawio.bkp
+*~$
+
+# Editor / OS cruft
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Temporary exports & scratch files
+exports/
+*.tmp
+*.log
+
+# Local Claude/session state (keep committed project config in .claude/)
+.claude/settings.local.json
+
+# Node (if MCP tooling is ever installed locally)
+node_modules/
+package-lock.json
